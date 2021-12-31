@@ -1,6 +1,6 @@
 <template>
   <div class="relative flex flex-wrap items-center justify-center h-full">
-    <button class="fixed top-0 left-0 p-2">
+    <button class="fixed top-0 left-0 p-2 cursor-pointer">
       <img
         class="block md:hidden"
         height="48"
