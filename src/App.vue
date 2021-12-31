@@ -6,6 +6,13 @@ import AppHeader from './components/header/AppHeader.vue'
   <div class="relative flex flex-wrap items-center justify-center h-full">
     <AppHeader class="sticky top-0 w-full" />
     <router-view />
+    <a
+      href="//spotify.com"
+      target="_blank"
+      class="fixed p-2 px-3 text-xl font-semibold tracking-widest text-yellow-400 uppercase border border-yellow-400 bottom-4 right-4 hover:bg-yellow-400 hover:text-black"
+    >
+      Listen Now
+    </a>
   </div>
 </template>
 

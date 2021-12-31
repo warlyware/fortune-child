@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center h-full min-h-app">
     <img
-      class="p-4"
+      class="w-10/12 p-4 h-10/12"
       :src="logoMain"
     >
   </div>
