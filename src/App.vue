@@ -3,22 +3,22 @@
     <transition name="fade">
       <div
         v-if="showNavMenu"
-        class="fixed top-0 bottom-0 left-0 right-0 z-10 flex flex-col items-center justify-center w-screen h-screen px-4 space-y-2 text-4xl font-semibold text-yellow-400 uppercase bg-black"
+        class="fixed top-0 bottom-0 left-0 right-0 z-10 flex flex-col items-center justify-center w-screen h-screen px-4 space-y-2 text-4xl font-semibold text-yellow-400 bg-black"
       >
         <button
-          class="w-full py-2 text-center rounded hover:bg-yellow-400 hover:text-black"
+          class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/home')"
         >
           Home
         </button>
         <button
-          class="w-full py-2 text-center rounded hover:bg-yellow-400 hover:text-black"
+          class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/about')"
         >
           About
         </button>
         <button
-          class="w-full py-2 text-center rounded hover:bg-yellow-400 hover:text-black"
+          class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/contact')"
         >
           Contact
@@ -41,31 +41,22 @@
     <div class="md:-mt-8">
       <router-view />
     </div>
-    <div class="fixed flex flex-wrap items-center justify-center w-full px-4 md:justify-end bottom-4">
-      <div class="flex justify-center w-full mb-4 md:hidden">
-        <SocialMediaIcons />
-      </div>
-      <a
-        href="//spotify.com"
-        target="_blank"
-        class="p-2 px-3 text-xl font-semibold tracking-widest text-yellow-400 uppercase border border-yellow-400 hover:bg-yellow-400 hover:text-black"
-      >
-        Listen Now
-      </a>
-    </div>
+    <AppFooter :class="{ 'fixed': shouldFixFooter }" />
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
+import { computed, ref } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import AppHeader from './components/header/AppHeader.vue'
-import SocialMediaIcons from './components/SocialMediaIcons.vue'
+import AppFooter from './components/AppFooter.vue'
 
 const router = useRouter()
+const route = useRoute()
 
 
 const showNavMenu = ref(false)
+const shouldFixFooter = computed(() => route.name === 'Home' || route.name === 'Contact')
 
 const openNavMenu = () => {
   showNavMenu.value = !showNavMenu.value
