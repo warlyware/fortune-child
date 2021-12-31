@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-2">
+  <div class="flex space-x-2 text-yellow-400">
     <a
       href="//facebook.com"
       target="_blank"
@@ -39,9 +39,9 @@
 </template>
 
 <script setup>
-import FacebookIcon from "../icons/FacebookIcon.vue";
-import TwitterIcon from "../icons/TwitterIcon.vue";
-import InstagramIcon from "../icons/InstagramIcon.vue";
-import SpotifyIcon from "../icons/SpotifyIcon.vue";
-import AppleIcon from "../icons/AppleIcon.vue";
+import FacebookIcon from "./icons/FacebookIcon.vue";
+import TwitterIcon from "./icons/TwitterIcon.vue";
+import InstagramIcon from "./icons/InstagramIcon.vue";
+import SpotifyIcon from "./icons/SpotifyIcon.vue";
+import AppleIcon from "./icons/AppleIcon.vue";
 </script>
