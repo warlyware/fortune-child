@@ -6,7 +6,7 @@
     <h2 class="mb-2 text-2xl font-semibold uppercase">
       Bio
     </h2>
-    <div class="space-y-4 text-lg text-left max-w-prose">
+    <div class="mx-auto space-y-4 text-lg text-left max-w-prose">
       <p>
         I'm baby celiac coloring book authentic chillwave forage succulents cliche neutra kombucha skateboard bespoke. Lyft gastropub single-origin coffee prism cold-pressed ugh franzen deep v godard banh mi. Sartorial hashtag tote bag raw denim fashion axe. Messenger bag roof party kombucha blue bottle ugh, migas cold-pressed pour-over. Actually mumblecore franzen selvage, skateboard pour-over helvetica vexillologist master cleanse deep v fashion axe.
       </p>

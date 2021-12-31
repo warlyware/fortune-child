@@ -23,6 +23,12 @@
         >
           Contact
         </button>
+        <button
+          class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
+          @click="goTo('/tour')"
+        >
+          Tour
+        </button>
       </div>
     </transition>
     <button
@@ -38,7 +44,7 @@
       >
     </button>
     <AppHeader class="sticky top-0 hidden w-full md:flex" />
-    <div class="md:-mt-8">
+    <div class="-mt-4 md:-mt-8 md:w-full">
       <router-view />
     </div>
     <AppFooter :class="{ 'fixed': shouldFixFooter }" />

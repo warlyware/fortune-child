@@ -18,6 +18,12 @@
     >
       Contact
     </router-link>
+    <router-link
+      to="/tour"
+      class="px-2 rounded hover:text-black hover:bg-yellow-400"
+    >
+      Tour
+    </router-link>
   </div>
 </template>
 
