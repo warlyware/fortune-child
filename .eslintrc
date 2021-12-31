@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "rules": {
+    "vue/singleline-html-element-content-newline": [
+      "error",
+      {
+        "ignoreWhenNoAttributes": true,
+        "ignoreWhenEmpty": true
+      }
+    ]
+  }
+}
