@@ -29,7 +29,7 @@
         class="underline hover:text-black hover:bg-yellow-400"
       >
         jsnow@youknownothing.com
-      </a>.
+      </a>
     </p>
   </div>
 </template>
