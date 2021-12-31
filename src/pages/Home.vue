@@ -1,6 +1,9 @@
 <template>
-  <div class="mt-4">
-    <img class="p-4" :src="logoMain" />
+  <div class="flex items-center justify-center h-full min-h-app">
+    <img
+      class="p-4"
+      :src="logoMain"
+    >
   </div>
 </template>
 
