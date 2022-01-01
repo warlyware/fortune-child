@@ -11,24 +11,24 @@
         >
           Home
         </button>
-        <button
+        <!-- <button
           class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/about')"
         >
           About
-        </button>
+        </button> -->
         <button
           class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/contact')"
         >
           Contact
         </button>
-        <button
+        <!-- <button
           class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/tour')"
         >
           Tour
-        </button>
+        </button> -->
       </div>
     </transition>
     <button
@@ -44,7 +44,7 @@
       >
     </button>
     <AppHeader class="sticky top-0 hidden w-full md:flex" />
-    <div class="-mt-4 md:-mt-8 md:w-full">
+    <div class="md:-mt-8 md:w-full">
       <router-view />
     </div>
     <AppFooter :class="{ 'fixed': shouldFixFooter }" />
