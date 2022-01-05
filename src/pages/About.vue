@@ -1,12 +1,16 @@
 <template>
-  <div class="px-4 mx-auto my-8 text-center md:my-20">
-    <h1 class="mb-12 text-4xl font-semibold tracking-widest uppercase">
-      About
-    </h1>
+  <div class="mx-auto my-8 text-center md:my-12">
+    <div class="relative mb-12 bg-center bg-cover about-hero">
+      <h1 class="absolute w-full h-full my-auto text-4xl font-semibold tracking-widest text-center uppercase">
+        <span class="p-2 px-3 bg-black">
+          About
+        </span>
+      </h1>
+    </div>
     <h2 class="mb-2 text-2xl font-semibold uppercase">
       Bio
     </h2>
-    <div class="mx-auto space-y-4 text-lg text-left max-w-prose">
+    <div class="px-4 mx-auto space-y-4 text-lg text-left max-w-prose">
       <p>
         Deprive a person of something, and they will surely go out and find it. In an age where Rock N' Roll has
         fallen by the wayside, few have heeded the call to preserve its integrity and importance in most of the
@@ -32,3 +36,14 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.about-hero {
+  height: 24rem;
+  background-image: url(../assets/band-crop.jpeg);
+}
+.about-hero h1 {
+  top: 50%;
+  height: 100px;
+}
+</style>
