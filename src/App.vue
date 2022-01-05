@@ -11,12 +11,12 @@
         >
           Home
         </button>
-        <!-- <button
+        <button
           class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/about')"
         >
           About
-        </button> -->
+        </button>
         <button
           class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/contact')"

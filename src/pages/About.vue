@@ -8,10 +8,26 @@
     </h2>
     <div class="mx-auto space-y-4 text-lg text-left max-w-prose">
       <p>
-        I'm baby celiac coloring book authentic chillwave forage succulents cliche neutra kombucha skateboard bespoke. Lyft gastropub single-origin coffee prism cold-pressed ugh franzen deep v godard banh mi. Sartorial hashtag tote bag raw denim fashion axe. Messenger bag roof party kombucha blue bottle ugh, migas cold-pressed pour-over. Actually mumblecore franzen selvage, skateboard pour-over helvetica vexillologist master cleanse deep v fashion axe.
+        Deprive a person of something, and they will surely go out and find it. In an age where Rock N' Roll has
+        fallen by the wayside, few have heeded the call to preserve its integrity and importance in most of the
+        music we hear today. It's time to put the question to rest: Rock N' Roll is here to stay, and Fortune Child
+        will be commanding the ship.
       </p>
       <p>
-        Kickstarter sustainable street art glossier, knausgaard paleo tumblr swag hashtag activated charcoal taiyaki. Intelligentsia DIY small batch, biodiesel craft beer 3 wolf moon microdosing readymade pork belly cornhole actually af. 3 wolf moon vinyl franzen fashion axe truffaut fingerstache PBR&B fanny pack jean shorts taiyaki messenger bag. Seitan leggings live-edge deep v trust fund drinking vinegar. Crucifix mumblecore ramps cliche tumblr normcore umami 8-bit. Lumbersexual kitsch wayfarers literally street art food truck slow-carb jean shorts 90's heirloom irony schlitz banjo. Neutra authentic jianbing sustainable art party drinking vinegar everyday carry.
+        Founded in Jacksonville, Florida in 2021, Fortune Child released their self-produced debut single, "The
+        Way" along with its EP counterpart, "Danger Bird" in just six months’ time. It is no secret that these
+        lovers of good ol' fashioned Rock were inspired by the likes of Led Zeppelin, Lynyrd Skynyrd, Alice in
+        Chains, The Black Crowes and so many more. The four-piece band plans to take the Rock N' Roll scene
+        by storm, and to remind the people of what truly matters: the music itself.
+      </p>
+      <p>
+        The band (Christian Powers/ vocals, Buddy Crump/ lead guitar, Melanie Jo/ drums, and Jon Ward/bass)
+        has quickly garnered significant support from the Southeast US Rock N' Roll scene opening for national
+        touring acts such as Blacktop Mojo and will continue to do so as they leave crowds wanting more and
+        more after each show. It's loud, it's dirty, and it’s down-right badass. Fortune Child is a force to be
+        reckoned with. For 2022, the band has partnered with legendary rock producer Kevin Elson of Journey,
+        Mr. Big, Europe, and Lynyrd Skynyrd to produce their full length debut album “Close to the Sun,” due
+        out in early March. It’s one you won’t want to miss!
       </p>
     </div>
   </div>

@@ -6,12 +6,12 @@
     >
       Home
     </router-link>
-    <!-- <router-link
+    <router-link
       to="/about"
       class="px-2 rounded hover:text-black hover:bg-yellow-400"
     >
       About
-    </router-link> -->
+    </router-link>
     <router-link
       to="/contact"
       class="px-2 rounded hover:text-black hover:bg-yellow-400"
