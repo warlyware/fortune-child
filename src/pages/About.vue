@@ -1,11 +1,11 @@
 <template>
   <div class="mx-auto my-8 text-center md:my-12">
     <div class="relative mb-12 bg-center bg-cover about-hero">
-      <h1 class="absolute w-full h-full my-auto text-4xl font-semibold tracking-widest text-center uppercase">
+      <!-- <h1 class="absolute w-full h-full my-auto text-4xl font-semibold tracking-widest text-center uppercase">
         <span class="p-2 px-3 bg-black">
           About
         </span>
-      </h1>
+      </h1> -->
     </div>
     <h2 class="mb-2 text-2xl font-semibold uppercase">
       Bio
