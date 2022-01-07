@@ -13,6 +13,12 @@
       About
     </router-link>
     <router-link
+      to="/music"
+      class="px-2 rounded hover:text-black hover:bg-yellow-400"
+    >
+      Music
+    </router-link>
+    <router-link
       to="/contact"
       class="px-2 rounded hover:text-black hover:bg-yellow-400"
     >
