@@ -1,19 +1,19 @@
 <template>
   <img
     :src="logoMainOuter"
-    class="absolute w-10/12 max-w-xl p-4 h-10/12 md:w-8/12 md:h-8/12"
+    class="absolute w-10/12 max-w-lg p-4 -mt-20 h-10/12 md:w-6/12 md:h-6/12"
     alt="main logo"
   >
   <img
     id="logo-iris"
     :src="logoMainIris"
-    class="absolute w-10/12 max-w-xl p-4 h-10/12 md:w-8/12 md:h-8/12"
+    class="absolute w-10/12 max-w-lg p-4 -mt-20 h-10/12 md:w-6/12 md:h-6/12"
     alt="main logo 2"
   >
   <img
     id="logo-pupil"
     :src="logoMainPupil"
-    class="absolute w-10/12 max-w-xl p-4 h-10/12 md:w-8/12 md:h-8/12"
+    class="absolute w-10/12 max-w-lg p-4 -mt-20 h-10/12 md:w-6/12 md:h-6/12"
     alt="main logo 3"
   >
 </template>

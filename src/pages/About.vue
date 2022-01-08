@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-auto my-8 text-center md:my-12">
-    <div class="relative mb-12 bg-center bg-cover about-hero">
+  <div class="mx-auto mb-12 text-center md:my-12">
+    <div class="mb-12 -mx-12 bg-center bg-cover about-hero animate-height">
       <!-- <h1 class="absolute w-full h-full my-auto text-4xl font-semibold tracking-widest text-center uppercase">
         <span class="p-2 px-3 bg-black">
           About
@@ -18,8 +18,7 @@
         will be commanding the ship.
       </p>
       <p>
-        Founded in Jacksonville, Florida in 2021, Fortune Child released their self-produced debut single, "The
-        Way" along with its EP counterpart, "Danger Bird" in just six months’ time. It is no secret that these
+        Founded in Jacksonville, Florida in 2021, it is no secret that these
         lovers of good ol' fashioned Rock were inspired by the likes of Led Zeppelin, Lynyrd Skynyrd, Alice in
         Chains, The Black Crowes and so many more. The four-piece band plans to take the Rock N' Roll scene
         by storm, and to remind the people of what truly matters: the music itself.
@@ -37,7 +36,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .about-hero {
   height: 24rem;
   background-image: url(../assets/band-crop.jpeg);

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex flex-wrap items-center justify-center h-full text-yellow-400">
+  <div class="relative flex flex-wrap items-center justify-center w-full h-full text-yellow-400">
     <transition name="fade">
       <div
         v-if="showNavMenu"
@@ -38,11 +38,11 @@
       </div>
     </transition>
     <button
-      class="fixed z-20 p-2 rounded-lg opacity-50 cursor-pointer top-2 left-2"
+      class="fixed z-20 p-2 rounded-lg cursor-pointer opacity-80 top-2 left-2"
       @click="openNavMenu"
     >
       <img
-        class="block md:hidden"
+        class="block bg-gray-900 border border-yellow-400 rounded-full md:hidden"
         height="48"
         width="48"
         src="./assets/logo-eye-only-cropped-transparent-sm.png"
@@ -53,7 +53,10 @@
     <div class="md:-mt-8 md:w-full">
       <router-view />
     </div>
-    <AppFooter :class="{ 'fixed': shouldFixFooter }" />
+    <AppFooter
+      class="-mt-8 bg-black"
+      :class="{ 'fixed': shouldFixFooter }"
+    />
   </div>
 </template>
 
@@ -96,6 +99,9 @@ html,
 }
 h1, h2, h3, h4, h5, h6 {
   @apply tracking-widest;
+}
+.animate-height {
+  transition: height 0.4s ease-in-out;
 }
 
 .min-h-app {
