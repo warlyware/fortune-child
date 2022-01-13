@@ -9,12 +9,11 @@
     <p
       class="mb-8 text-xl"
     >
-      <!-- Bob Labla &nbsp;||&nbsp; -->
       <a
-        href="mailto:fortunechildmusic@gmail.com"
+        href="mailto:info@fortunechildmusic.com"
         class="underline hover:text-black hover:bg-yellow-400"
       >
-        fortunechildmusic@gmail.com
+        info@fortunechildmusic.com
       </a>
     </p>
     <!-- <h2 class="mb-2 text-2xl font-semibold uppercase">
