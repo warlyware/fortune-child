@@ -13,7 +13,7 @@
         >
         <div class="py-8">
 
-          Pre-save the new single on Spotify
+          Listen to the new single on Spotify
         </div>
       </a>
     </div>
