@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen mx-auto text-center md:mb-12">
-    <div class="mb-12 bg-center bg-cover h-1/4 md:h-1/2 xl:h-2/3 music-hero animate-height" />
+  <div class="mx-auto mb-12 text-center md:my-12">
+    <div class="mb-12 bg-center bg-cover h-96 music-hero animate-height" />
     <div class="px-12 mx-auto space-y-4 text-lg text-left ob-12 max-w-prose">
       <iframe
         id="yt-player"
@@ -14,7 +14,7 @@
       <a
         href="https://distrokid.com/hyperfollow/fortunechild/far"
         target="_blank"
-        class="block text-2xl text-center uppercase max-w-p"
+        class="block text-2xl text-center uppercase"
       >
         <img
           src="../assets/far-cover.jpeg"

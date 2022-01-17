@@ -71,7 +71,7 @@ const route = useRoute()
 
 
 const showNavMenu = ref(false)
-const shouldFixFooter = computed(() => route.name === 'Home' || route.name === 'Contact')
+const shouldFixFooter = computed(() => route.name === 'Home' || route.name === 'Contact' || route.name === 'Music')
 
 const openNavMenu = () => {
   showNavMenu.value = !showNavMenu.value
