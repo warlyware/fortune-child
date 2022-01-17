@@ -4,89 +4,22 @@
       Tour
     </h1>
     <div class="flex flex-col w-full mx-auto uppercase track-widest">
-      <div class="flex flex-col my-4">
+      <div
+        v-for="show in shows"
+        :key="`${show.date}-${show.venue}`"
+        class="flex flex-col my-4"
+      >
         <div class="text-3xl">
-          1 . 2 . 22
+          {{ show.date }}
         </div>
         <div class="my-2 text-3xl">
-          The Florida Theater
+          {{ show.venue }}
         </div>
         <div class="mb-2 text-xl">
-          Jacksonville, FL
+          {{ show.location }}
         </div>
         <a
-          class="underline"
-          href="//ticketmaster.com"
-          target="_blank"
-        >
-          Buy Tickets
-        </a>
-      </div>
-      <div class="flex flex-col my-4">
-        <div class="text-3xl">
-          1 . 6 . 22
-        </div>
-        <div class="my-2 text-3xl">
-          Jack Rabbits
-        </div>
-        <div class="text-xl">
-          Jacksonville, FL
-        </div>
-        <a
-          class="underline"
-          href="//ticketmaster.com"
-          target="_blank"
-        >
-          Buy Tickets
-        </a>
-      </div>
-      <div class="flex flex-col my-4">
-        <div class="text-3xl">
-          1 . 13 . 22
-        </div>
-        <div class="my-2 text-3xl">
-          Murray Hill Theater
-        </div>
-        <div class="text-xl">
-          Jacksonville, FL
-        </div>
-        <a
-          class="underline"
-          href="//ticketmaster.com"
-          target="_blank"
-        >
-          Buy Tickets
-        </a>
-      </div>
-      <div class="flex flex-col my-4">
-        <div class="text-3xl">
-          1 . 19 . 22
-        </div>
-        <div class="my-2 text-3xl">
-          Loosey's
-        </div>
-        <div class="text-xl">
-          Gainesville, FL
-        </div>
-        <a
-          class="underline"
-          href="//ticketmaster.com"
-          target="_blank"
-        >
-          Buy Tickets
-        </a>
-      </div>
-      <div class="flex flex-col my-4">
-        <div class="text-3xl">
-          1 . 19 . 22
-        </div>
-        <div class="my-2 text-3xl">
-          The Social
-        </div>
-        <div class="text-xl">
-          Orlando, FL
-        </div>
-        <a
+          v-if="show.link"
           class="underline"
           href="//ticketmaster.com"
           target="_blank"
@@ -97,3 +30,14 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const shows = [
+  {
+    date: '2 . 18 . 22',
+    venue: 'Jackrabbits Live',
+    location: 'Jacksonville, FL',
+    link: null
+  },
+]
+</script>

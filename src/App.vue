@@ -29,12 +29,12 @@
         >
           Contact
         </button>
-        <!-- <button
+        <button
           class="w-full py-2 text-center uppercase rounded hover:bg-yellow-400 hover:text-black"
           @click="goTo('/tour')"
         >
           Tour
-        </button> -->
+        </button>
       </div>
     </transition>
     <button

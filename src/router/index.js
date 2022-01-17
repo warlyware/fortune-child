@@ -3,7 +3,7 @@ import About from '../pages/About.vue'
 import Contact from '../pages/Contact.vue'
 import Home from '../pages/Home.vue'
 import Music from '../pages/Music.vue'
-// import Tour from '../pages/Tour.vue'
+import Tour from '../pages/Tour.vue'
 
 const routes = [
   {
@@ -26,11 +26,11 @@ const routes = [
     name: 'Music',
     component: Music
   },
-  // {
-  //   path: '/tour',
-  //   name: 'Tour',
-  //   component: Tour
-  // },
+  {
+    path: '/tour',
+    name: 'Tour',
+    component: Tour
+  },
   { 
     path: '/:pathMatch(.*)*', 
     redirect: { name: 'Home' } 
