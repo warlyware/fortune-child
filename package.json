@@ -9,7 +9,8 @@
   "dependencies": {
     "vue": "^3.2.25",
     "vue-gtag": "^2.0.1",
-    "vue-router": "4"
+    "vue-router": "4",
+    "vue3-youtube": "^0.1.9"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
