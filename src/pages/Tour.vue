@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-4 mx-auto my-8 text-center md:my-20 max-w-prose">
+  <div class="w-full px-4 mx-auto mt-8 mb-32 text-center md:my-20 max-w-prose">
     <h1 class="mb-4 text-4xl font-semibold tracking-widest uppercase">
       Tour
     </h1>
@@ -37,6 +37,18 @@ const shows = [
     date: '2 . 18 . 22',
     venue: 'Jackrabbits Live',
     location: 'Jacksonville, FL',
+    link: null
+  },
+  {
+    date: '2 . 26 . 22',
+    venue: 'Henao Soundgarden',
+    location: 'Orlando, FL',
+    link: null
+  },
+  {
+    date: '3 . 19 . 22',
+    venue: 'The Great Atlantic Southern Rock Revival Music Festival',
+    location: 'Jacksonville Beach, FL',
     link: null
   },
 ]

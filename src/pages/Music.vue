@@ -1,16 +1,18 @@
 <template>
-  <div class="mx-auto mb-12 text-center md:my-12">
-    <div class="mb-12 bg-center bg-cover h-96 music-hero animate-height" />
-    <div class="px-12 mx-auto space-y-4 text-lg text-left ob-12 max-w-prose">
-      <iframe
-        id="yt-player"
-        class="pb-8"
-        type="text/html"
-        width="100%"
-        height="360"
-        src="https://www.youtube.com/embed/mVMQ7NuJ4RQ?autoplay=1&origin=https://fortunechildmusic.com"
-        frameborder="0"
-      />
+  <div class="mx-auto my-8 text-center">
+    <div class="bg-center bg-cover h-36 md:h-96 music-hero animate-height" />
+    <div class="px-12 mx-auto space-y-4 text-lg text-left max-w-prose">
+      <div class="h-64 my-12 md:h-96 w-100">
+        <iframe
+          id="yt-player"
+          class="bg-gray-800"
+          type="text/html"
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/mVMQ7NuJ4RQ?autoplay=1&origin=https://fortunechildmusic.com"
+          frameborder="0"
+        />
+      </div>
       <a
         href="https://distrokid.com/hyperfollow/fortunechild/far"
         target="_blank"
