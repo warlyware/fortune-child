@@ -46,12 +46,6 @@ const shows = [
     link: null
   },
   {
-    date: '3 . 19 . 22',
-    venue: 'The Great Atlantic Southern Rock Revival Music Festival',
-    location: 'Jacksonville Beach, FL',
-    link: null
-  },
-  {
     date: '4 . 10 . 22',
     venue: 'Underbelly',
     location: 'Jacksonville, FL',
