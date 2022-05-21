@@ -29,8 +29,8 @@
         touring acts such as Blacktop Mojo and will continue to do so as they leave crowds wanting more and
         more after each show. It's loud, it's dirty, and it’s down-right badass. Fortune Child is a force to be
         reckoned with. For 2022, the band has partnered with legendary rock producer Kevin Elson of Journey,
-        Mr. Big, Europe, and Lynyrd Skynyrd to produce their full length debut album “Close to the Sun,” due
-        out in early March. It’s one you won’t want to miss!
+        Mr. Big, Europe, and Lynyrd Skynyrd to produce their full length debut album “Close to the Sun”
+        out now. It’s one you won’t want to miss!
       </p>
     </div>
   </div>

@@ -46,9 +46,39 @@ const shows = [
     link: null
   },
   {
+    date: '3 . 19 . 22',
+    venue: 'The Great Atlantic Southern Rock Festival',
+    location: 'Jacksonville, FL',
+    link: null
+  },
+  {
     date: '4 . 10 . 22',
     venue: 'Underbelly',
     location: 'Jacksonville, FL',
+    link: null
+  },
+  {
+    date: '4 . 16 . 22',
+    venue: 'Underbelly',
+    location: 'Jacksonville, FL',
+    link: null
+  },
+  {
+    date: '4 . 21 . 22',
+    venue: '1904 Music Hall',
+    location: 'Jacksonville, FL',
+    link: null
+  },
+  {
+    date: '4 . 29 . 22',
+    venue: 'Swamp City',
+    location: 'Jacksonville, FL',
+    link: null
+  },
+  {
+    date: '5 . 20 . 22',
+    venue: 'Heartwood Sound Stage',
+    location: 'Gainesville, FL',
     link: null
   },
 ]

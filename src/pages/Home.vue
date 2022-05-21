@@ -5,7 +5,7 @@
       <span class="italic">
         Close to the Sun 
       </span> 
-      LP coming 3/1/22
+      LP Out Now
     </h1>
   </div>
 </template>
