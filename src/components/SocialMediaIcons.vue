@@ -7,13 +7,13 @@
     >
       <FacebookIcon class="w-8 h-8 rounded hover:text-black hover:bg-yellow-400" />
     </a>
-    <a
+    <!-- <a
       href="http://www.twitter.com/fortunechild_"
       target="_blank"
       class="px-1"
     >
       <TwitterIcon class="w-8 h-8 rounded hover:text-black hover:bg-yellow-400" />
-    </a>
+    </a> -->
     <a
       href="https://instagram.com/fortunechildmusic"
       target="_blank"
@@ -22,7 +22,7 @@
       <InstagramIcon class="w-8 h-8 rounded hover:text-black hover:bg-yellow-400" />
     </a>
     <a
-      href="https://vm.tiktok.com/TTPd6cr2oT"
+      href="https://www.tiktok.com/@fortunechildmusic"
       target="_blank"
       class="px-1"
     >
